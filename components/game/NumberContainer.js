@@ -17,9 +17,14 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     alignItems: "center",
     justifyContent: "center",
-    marginTop: 10
+    marginTop: 10,
   },
-  numberText: { color: Colors.niceYellow, fontSize: 36, fontWeight: "bold" },
+  numberText: {
+    color: Colors.niceYellow,
+    fontSize: 36,
+    // fontWeight: "bold",
+    fontFamily: "open-sans-bold",
+  },
 });
 
 export default NumberContainer;

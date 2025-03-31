@@ -67,6 +67,7 @@ const styles = StyleSheet.create({
   instructionText: {
     color: "white",
     fontSize: 24,
+    fontFamily: 'open-sans'
   },
   numberInput: {
     minWidth: 50,
